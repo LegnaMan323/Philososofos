@@ -8,7 +8,7 @@ namespace Philososlocos
 {
 
     
-    enum ChopState { Taken, OnTheTable }
+    enum ChopState { InUse, OnTheTable }
 
 
     class Chops
@@ -24,15 +24,15 @@ namespace Philososlocos
             {
                 if (this.ChState == ChopState.OnTheTable)
                 {
-                    ChState = ChopState.Taken;
+                    ChState = ChopState.InUse;
                     TakenBy = takenBy;
-                    //   Console.WriteLine("||| {0} is taken by {1}", chopID, TakenBy);
+                    //   chop used by phID
                     return true;
                 }
 
                 else
                 {
-                    ChState = ChopState.Taken;
+                    ChState = ChopState.InUse;
                     return false;
                 }
             }
@@ -43,7 +43,7 @@ namespace Philososlocos
         public void Put()
         {
             ChState = ChopState.OnTheTable;
-            //       Console.WriteLine("||| {0} is place on the table by {1}", chopID, TakenBy);
+            //     Chop placed by phID
             TakenBy = 0;
         }
 

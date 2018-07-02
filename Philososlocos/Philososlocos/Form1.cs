@@ -19,6 +19,8 @@ namespace Philososlocos
 
     {
 
+        Starter Start1;
+
         public const int NumPhilos = 5;
         public const int Chopsticos = NumPhilos;
    
@@ -39,7 +41,8 @@ namespace Philososlocos
 
         private void bbybtn_Click(object sender, EventArgs e)
         {
-            Philosofos aristotle = new Philosofos(Table.Chopstick1, Table.Chopstick2, 1, 4);
+            Start1.
+                /*    Philosofos aristotle = new Philosofos(Table.Chopstick1, Table.Chopstick2, 1, 4);
             Philosofos palto = new Philosofos(Table.Chopstick2, Table.Chopstick3, 2, 5);
             Philosofos john = new Philosofos(Table.Chopstick3, Table.Chopstick4, 2, 6);
             Philosofos augustine = new Philosofos(Table.Chopstick4, Table.Chopstick5, 3, 4);
@@ -80,7 +83,7 @@ namespace Philososlocos
                 pbPhil0.Image = Image.FromFile("C:/Users/David/Documents/GitHub/Philososofos/Philososlocos/Philososlocos/Resources");
 
 
-            }
+            }*/
         }
     }
 

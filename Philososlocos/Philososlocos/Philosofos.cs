@@ -34,6 +34,12 @@ namespace Philososlocos
         public phState CState { get; set; }
 
 
+
+        public readonly Chops RightChop;
+        public readonly Chops LeftChop;
+
+
+
         int contThinkCount = 0;
 
         public Philosofos(Chops rightChop, Chops leftChop, int ID, int starvThreshold)
@@ -53,7 +59,7 @@ namespace Philososlocos
 
 
 
-            public void Eat()
+        public void Eat()
         { 
             
             if (TakeChopInRightHand())
@@ -64,7 +70,7 @@ namespace Philososlocos
                   
                     this.CState = phState.Eating;
                     
-              //      Console.WriteLine("(:::) {0} is eating..with {1} and {2}", phID, RightChop.ForkID, LeftChop.ForkID);
+              //     a philoso is eating..with {chop} and {chop2}" phID
                     Thread.Sleep(rand.Next(5000, 10000));
 
                     contThinkCount = 0;
@@ -80,9 +86,8 @@ namespace Philososlocos
                     Thread.Sleep(rand.Next(100, 400));
                     if (TakeChopInLeftHand())
                     {
-            
+            //
                         this.CState = phState.Eating;
-                  //      Console.WriteLine("(:::) {0} is eating..with {1} and {2}", phID, RightChop.ForkID, LeftChop.ForkID);
                         Thread.Sleep(rand.Next(5000, 10000));
 
                         contThinkCount = 0;
@@ -108,7 +113,7 @@ namespace Philososlocos
                     {
                       
                         this.CState = phState.Eating;
-                      //  Console.WriteLine("(:::) {0} is eating..with {1} and {2}", Name, RightFork.ForkID, LeftFork.ForkID);
+          //
                         Thread.Sleep(rand.Next(5000, 10000));
 
                         contThinkCount = 0;
@@ -130,13 +135,13 @@ namespace Philososlocos
         public void Think()
         {
             this.CState = phState.Thinking;
-            Console.WriteLine("^^*^^ {0} is thinking...on {1}", phID, Thread.CurrentThread.Priority.ToString());
+        // philoso is thinking
             Thread.Sleep(rand.Next(2500, 20000));
             contThinkCount++;
 
             if (contThinkCount > StarvationThreshold)
             {
-                Console.WriteLine(":ooooooooooooooooooooooooooooooooooooooooooooooo: {0} is starving", phID);
+               //starvingphiloso
             }
 
             Eat();
@@ -154,12 +159,6 @@ namespace Philososlocos
         {
             return RightChop.Take(phID);
         }
-
-
-        // defines the right and the left side fork of a philosopher
-        public readonly Chops RightChop;
-        public readonly Chops LeftChop;
-
 
       
     }
