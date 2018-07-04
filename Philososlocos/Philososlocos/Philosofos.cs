@@ -22,7 +22,7 @@ namespace Philososlocos
     {
 
 
-        Random rand = new Random();
+        Random random = new Random();
 
         public int phID { get; set; }
        // bool thinking = false;
@@ -42,23 +42,18 @@ namespace Philososlocos
 
         int contThinkCount = 0;
 
-        public Philosofos(Chops rightChop, Chops leftChop, int ID, int starvThreshold)
+        public Philosofos(Chops rightChop, Chops leftChop, int ID, int Starvationlim)
         {
             RightChop = rightChop;
             LeftChop = leftChop;
             phID = ID;
             CState = phState.Thinking;
-            StarvationThreshold = starvThreshold;
-        }
-
-        public void PickSticks()
-        {
-
-
+            StarvationThreshold = Starvationlim;
         }
 
 
 
+     
         public void Eat()
         { 
             
@@ -71,7 +66,7 @@ namespace Philososlocos
                     this.CState = phState.Eating;
                     
               //     a philoso is eating..with {chop} and {chop2}" phID
-                    Thread.Sleep(rand.Next(5000, 10000));
+                    Thread.Sleep(random.Next(500000, 1000000));
 
                     contThinkCount = 0;
 
@@ -82,13 +77,14 @@ namespace Philososlocos
        
                 else
                 {
-                  
-                    Thread.Sleep(rand.Next(100, 400));
+                    //wait
+                    this.CState = phState.Waiting;
+              
                     if (TakeChopInLeftHand())
                     {
             //
                         this.CState = phState.Eating;
-                        Thread.Sleep(rand.Next(5000, 10000));
+                        Thread.Sleep(random.Next(500000, 1000000));
 
                         contThinkCount = 0;
 
@@ -105,16 +101,17 @@ namespace Philososlocos
          
             else
             {
+                //wait for other chop
                 if (TakeChopInLeftHand())
                 {
-              
-                    Thread.Sleep(rand.Next(100, 400));
+                    this.CState = phState.Waiting;
+                
                     if (TakeChopInRightHand())
                     {
                       
                         this.CState = phState.Eating;
           //
-                        Thread.Sleep(rand.Next(5000, 10000));
+                        Thread.Sleep(random.Next(500000, 10000000));
 
                         contThinkCount = 0;
 
@@ -136,7 +133,7 @@ namespace Philososlocos
         {
             this.CState = phState.Thinking;
         // philoso is thinking
-            Thread.Sleep(rand.Next(2500, 20000));
+            Thread.Sleep(random.Next(2500, 10000));
             contThinkCount++;
 
             if (contThinkCount > StarvationThreshold)
@@ -149,6 +146,14 @@ namespace Philososlocos
         }
 
 
+      
+
+        public void Wait()
+        {
+            this.CState = phState.Waiting;
+            Thread.Sleep(random.Next(100, 400));
+            Eat();
+        }
 
         private bool TakeChopInLeftHand()
         {
