@@ -29,215 +29,415 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.Tlpn1 = new System.Windows.Forms.TableLayoutPanel();
-            this.pbTable = new System.Windows.Forms.PictureBox();
-            this.pbPhil1 = new System.Windows.Forms.PictureBox();
-            this.pbPhil3 = new System.Windows.Forms.PictureBox();
-            this.pbPhil0 = new System.Windows.Forms.PictureBox();
-            this.pbPhil4 = new System.Windows.Forms.PictureBox();
-            this.pbPhil2 = new System.Windows.Forms.PictureBox();
-            this.Start = new System.Windows.Forms.Button();
-            this.lbl1phil0 = new System.Windows.Forms.Label();
-            this.lbl1phil1 = new System.Windows.Forms.Label();
-            this.lbl1phil2 = new System.Windows.Forms.Label();
-            this.lbl1phil4 = new System.Windows.Forms.Label();
-            this.lbl1phil5 = new System.Windows.Forms.Label();
-            this.Tlpn1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbTable)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbPhil1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbPhil3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbPhil0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbPhil4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbPhil2)).BeginInit();
+            this.tblmainpnl = new System.Windows.Forms.TableLayoutPanel();
+            this.tblpnl2_btns = new System.Windows.Forms.TableLayoutPanel();
+            this.Stop_btn = new System.Windows.Forms.Button();
+            this.start_btn = new System.Windows.Forms.Button();
+            this.tblpnl3_dinner = new System.Windows.Forms.TableLayoutPanel();
+            this.tblpnl5_teibol = new System.Windows.Forms.TableLayoutPanel();
+            this.pbx_chork3 = new System.Windows.Forms.PictureBox();
+            this.pbx_chork2 = new System.Windows.Forms.PictureBox();
+            this.pbx_chork4 = new System.Windows.Forms.PictureBox();
+            this.pbx_chork5 = new System.Windows.Forms.PictureBox();
+            this.pbx_chork1 = new System.Windows.Forms.PictureBox();
+            this.pbx_phil1 = new System.Windows.Forms.PictureBox();
+            this.pbx_phil2 = new System.Windows.Forms.PictureBox();
+            this.pbx_phil4 = new System.Windows.Forms.PictureBox();
+            this.pbx_phil5 = new System.Windows.Forms.PictureBox();
+            this.pbx_phil3 = new System.Windows.Forms.PictureBox();
+            this.tblpnl4_philstatus = new System.Windows.Forms.TableLayoutPanel();
+            this.pbx_phil1stat = new System.Windows.Forms.PictureBox();
+            this.pbx_phil2stat = new System.Windows.Forms.PictureBox();
+            this.pbx_phil3stat = new System.Windows.Forms.PictureBox();
+            this.pbx_phil4stat = new System.Windows.Forms.PictureBox();
+            this.pbx_phil5stat = new System.Windows.Forms.PictureBox();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.tblmainpnl.SuspendLayout();
+            this.tblpnl2_btns.SuspendLayout();
+            this.tblpnl3_dinner.SuspendLayout();
+            this.tblpnl5_teibol.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil3)).BeginInit();
+            this.tblpnl4_philstatus.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil1stat)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil2stat)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil3stat)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil4stat)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil5stat)).BeginInit();
+            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // Tlpn1
+            // tblmainpnl
             // 
-            this.Tlpn1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.Tlpn1.ColumnCount = 5;
-            this.Tlpn1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.639098F));
-            this.Tlpn1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.07519F));
-            this.Tlpn1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.92369F));
-            this.Tlpn1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.Tlpn1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 34F));
-            this.Tlpn1.Controls.Add(this.pbTable, 2, 2);
-            this.Tlpn1.Controls.Add(this.pbPhil1, 3, 2);
-            this.Tlpn1.Controls.Add(this.pbPhil3, 1, 2);
-            this.Tlpn1.Controls.Add(this.pbPhil0, 3, 1);
-            this.Tlpn1.Controls.Add(this.pbPhil4, 1, 1);
-            this.Tlpn1.Controls.Add(this.pbPhil2, 2, 3);
-            this.Tlpn1.Controls.Add(this.Start, 2, 0);
-            this.Tlpn1.Controls.Add(this.lbl1phil0, 3, 0);
-            this.Tlpn1.Controls.Add(this.lbl1phil1, 3, 3);
-            this.Tlpn1.Controls.Add(this.lbl1phil2, 2, 4);
-            this.Tlpn1.Controls.Add(this.lbl1phil4, 1, 3);
-            this.Tlpn1.Controls.Add(this.lbl1phil5, 1, 0);
-            this.Tlpn1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Tlpn1.Location = new System.Drawing.Point(0, 0);
-            this.Tlpn1.Name = "Tlpn1";
-            this.Tlpn1.RowCount = 5;
-            this.Tlpn1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.954436F));
-            this.Tlpn1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.41966F));
-            this.Tlpn1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 39.80816F));
-            this.Tlpn1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 27.81775F));
-            this.Tlpn1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.Tlpn1.Size = new System.Drawing.Size(532, 453);
-            this.Tlpn1.TabIndex = 0;
+            this.tblmainpnl.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.tblmainpnl.ColumnCount = 3;
+            this.tblmainpnl.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 15F));
+            this.tblmainpnl.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 73.87218F));
+            this.tblmainpnl.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.12782F));
+            this.tblmainpnl.Controls.Add(this.tblpnl2_btns, 2, 0);
+            this.tblmainpnl.Controls.Add(this.tblpnl3_dinner, 1, 1);
+            this.tblmainpnl.Controls.Add(this.tblpnl4_philstatus, 2, 1);
+            this.tblmainpnl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tblmainpnl.Location = new System.Drawing.Point(0, 0);
+            this.tblmainpnl.MinimumSize = new System.Drawing.Size(530, 450);
+            this.tblmainpnl.Name = "tblmainpnl";
+            this.tblmainpnl.RowCount = 3;
+            this.tblmainpnl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.33554F));
+            this.tblmainpnl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 83.66446F));
+            this.tblmainpnl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8F));
+            this.tblmainpnl.Size = new System.Drawing.Size(532, 453);
+            this.tblmainpnl.TabIndex = 0;
             // 
-            // pbTable
+            // tblpnl2_btns
             // 
-            this.pbTable.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pbTable.Image = ((System.Drawing.Image)(resources.GetObject("pbTable.Image")));
-            this.pbTable.Location = new System.Drawing.Point(180, 143);
-            this.pbTable.Name = "pbTable";
-            this.pbTable.Size = new System.Drawing.Size(148, 166);
-            this.pbTable.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbTable.TabIndex = 0;
-            this.pbTable.TabStop = false;
+            this.tblpnl2_btns.ColumnCount = 1;
+            this.tblpnl2_btns.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tblpnl2_btns.Controls.Add(this.Stop_btn, 0, 1);
+            this.tblpnl2_btns.Controls.Add(this.start_btn, 0, 0);
+            this.tblpnl2_btns.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tblpnl2_btns.Location = new System.Drawing.Point(399, 3);
+            this.tblpnl2_btns.MinimumSize = new System.Drawing.Size(130, 70);
+            this.tblpnl2_btns.Name = "tblpnl2_btns";
+            this.tblpnl2_btns.RowCount = 2;
+            this.tblpnl2_btns.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tblpnl2_btns.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34F));
+            this.tblpnl2_btns.Size = new System.Drawing.Size(130, 70);
+            this.tblpnl2_btns.TabIndex = 0;
             // 
-            // pbPhil1
+            // Stop_btn
             // 
-            this.pbPhil1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.pbPhil1.Location = new System.Drawing.Point(334, 211);
-            this.pbPhil1.Name = "pbPhil1";
-            this.pbPhil1.Size = new System.Drawing.Size(100, 98);
-            this.pbPhil1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbPhil1.TabIndex = 1;
-            this.pbPhil1.TabStop = false;
+            this.Stop_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.Stop_btn.Enabled = false;
+            this.Stop_btn.Location = new System.Drawing.Point(27, 39);
+            this.Stop_btn.Name = "Stop_btn";
+            this.Stop_btn.Size = new System.Drawing.Size(75, 28);
+            this.Stop_btn.TabIndex = 0;
+            this.Stop_btn.Text = "Stop";
+            this.Stop_btn.UseVisualStyleBackColor = true;
+            this.Stop_btn.Click += new System.EventHandler(this.Stop_btn_Click);
             // 
-            // pbPhil3
+            // start_btn
             // 
-            this.pbPhil3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pbPhil3.Location = new System.Drawing.Point(74, 211);
-            this.pbPhil3.Name = "pbPhil3";
-            this.pbPhil3.Size = new System.Drawing.Size(100, 98);
-            this.pbPhil3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbPhil3.TabIndex = 2;
-            this.pbPhil3.TabStop = false;
+            this.start_btn.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.start_btn.Location = new System.Drawing.Point(27, 3);
+            this.start_btn.Name = "start_btn";
+            this.start_btn.Size = new System.Drawing.Size(75, 23);
+            this.start_btn.TabIndex = 1;
+            this.start_btn.Text = "Start";
+            this.start_btn.UseVisualStyleBackColor = true;
+            this.start_btn.Click += new System.EventHandler(this.start_btn_Click);
             // 
-            // pbPhil0
+            // tblpnl3_dinner
             // 
-            this.pbPhil0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.pbPhil0.Location = new System.Drawing.Point(334, 33);
-            this.pbPhil0.Name = "pbPhil0";
-            this.pbPhil0.Size = new System.Drawing.Size(100, 104);
-            this.pbPhil0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbPhil0.TabIndex = 3;
-            this.pbPhil0.TabStop = false;
+            this.tblpnl3_dinner.BackColor = System.Drawing.Color.Transparent;
+            this.tblpnl3_dinner.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tblpnl3_dinner.BackgroundImage")));
+            this.tblpnl3_dinner.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tblpnl3_dinner.ColumnCount = 3;
+            this.tblpnl3_dinner.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.857143F));
+            this.tblpnl3_dinner.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 93.14286F));
+            this.tblpnl3_dinner.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 22F));
+            this.tblpnl3_dinner.Controls.Add(this.tblpnl5_teibol, 1, 1);
+            this.tblpnl3_dinner.Controls.Add(this.pbx_phil3, 1, 2);
+            this.tblpnl3_dinner.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tblpnl3_dinner.Location = new System.Drawing.Point(18, 75);
+            this.tblpnl3_dinner.Name = "tblpnl3_dinner";
+            this.tblpnl3_dinner.RowCount = 3;
+            this.tblpnl3_dinner.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.97849F));
+            this.tblpnl3_dinner.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 86.02151F));
+            this.tblpnl3_dinner.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 84F));
+            this.tblpnl3_dinner.Size = new System.Drawing.Size(375, 366);
+            this.tblpnl3_dinner.TabIndex = 1;
             // 
-            // pbPhil4
+            // tblpnl5_teibol
             // 
-            this.pbPhil4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pbPhil4.Location = new System.Drawing.Point(74, 33);
-            this.pbPhil4.Name = "pbPhil4";
-            this.pbPhil4.Size = new System.Drawing.Size(100, 104);
-            this.pbPhil4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbPhil4.TabIndex = 4;
-            this.pbPhil4.TabStop = false;
+            this.tblpnl5_teibol.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tblpnl5_teibol.BackgroundImage")));
+            this.tblpnl5_teibol.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tblpnl5_teibol.ColumnCount = 3;
+            this.tblpnl5_teibol.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.75F));
+            this.tblpnl5_teibol.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.25F));
+            this.tblpnl5_teibol.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 99F));
+            this.tblpnl5_teibol.Controls.Add(this.pbx_chork3, 0, 1);
+            this.tblpnl5_teibol.Controls.Add(this.pbx_phil1, 2, 0);
+            this.tblpnl5_teibol.Controls.Add(this.pbx_phil2, 2, 2);
+            this.tblpnl5_teibol.Controls.Add(this.pbx_phil4, 0, 2);
+            this.tblpnl5_teibol.Controls.Add(this.pbx_phil5, 0, 0);
+            this.tblpnl5_teibol.Controls.Add(this.tableLayoutPanel3, 1, 2);
+            this.tblpnl5_teibol.Controls.Add(this.pbx_chork4, 1, 0);
+            this.tblpnl5_teibol.Controls.Add(this.pbx_chork1, 2, 1);
+            this.tblpnl5_teibol.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tblpnl5_teibol.Location = new System.Drawing.Point(27, 42);
+            this.tblpnl5_teibol.Name = "tblpnl5_teibol";
+            this.tblpnl5_teibol.RowCount = 3;
+            this.tblpnl5_teibol.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 55.88235F));
+            this.tblpnl5_teibol.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 44.11765F));
+            this.tblpnl5_teibol.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 104F));
+            this.tblpnl5_teibol.Size = new System.Drawing.Size(322, 236);
+            this.tblpnl5_teibol.TabIndex = 0;
             // 
-            // pbPhil2
+            // pbx_chork3
             // 
-            this.pbPhil2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.pbPhil2.Location = new System.Drawing.Point(204, 315);
-            this.pbPhil2.Name = "pbPhil2";
-            this.pbPhil2.Size = new System.Drawing.Size(100, 84);
-            this.pbPhil2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbPhil2.TabIndex = 5;
-            this.pbPhil2.TabStop = false;
+            this.pbx_chork3.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.pbx_chork3.Image = ((System.Drawing.Image)(resources.GetObject("pbx_chork3.Image")));
+            this.pbx_chork3.Location = new System.Drawing.Point(52, 77);
+            this.pbx_chork3.Name = "pbx_chork3";
+            this.pbx_chork3.Size = new System.Drawing.Size(42, 50);
+            this.pbx_chork3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbx_chork3.TabIndex = 1;
+            this.pbx_chork3.TabStop = false;
             // 
-            // Start
+            // pbx_chork2
             // 
-            this.Start.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.Start.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Start.Location = new System.Drawing.Point(216, 3);
-            this.Start.Name = "Start";
-            this.Start.Size = new System.Drawing.Size(75, 23);
-            this.Start.TabIndex = 6;
-            this.Start.Text = "Start";
-            this.Start.UseVisualStyleBackColor = true;
-            this.Start.Click += new System.EventHandler(this.bbybtn_Click);
+            this.pbx_chork2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbx_chork2.Image = ((System.Drawing.Image)(resources.GetObject("pbx_chork2.Image")));
+            this.pbx_chork2.Location = new System.Drawing.Point(68, 39);
+            this.pbx_chork2.Name = "pbx_chork2";
+            this.pbx_chork2.Size = new System.Drawing.Size(48, 57);
+            this.pbx_chork2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbx_chork2.TabIndex = 2;
+            this.pbx_chork2.TabStop = false;
             // 
-            // lbl1phil0
+            // pbx_chork4
             // 
-            this.lbl1phil0.AutoSize = true;
-            this.lbl1phil0.Location = new System.Drawing.Point(334, 0);
-            this.lbl1phil0.Name = "lbl1phil0";
-            this.lbl1phil0.Size = new System.Drawing.Size(0, 17);
-            this.lbl1phil0.TabIndex = 7;
+            this.pbx_chork4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.pbx_chork4.Image = ((System.Drawing.Image)(resources.GetObject("pbx_chork4.Image")));
+            this.pbx_chork4.Location = new System.Drawing.Point(133, 20);
+            this.pbx_chork4.Name = "pbx_chork4";
+            this.pbx_chork4.Size = new System.Drawing.Size(53, 50);
+            this.pbx_chork4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbx_chork4.TabIndex = 0;
+            this.pbx_chork4.TabStop = false;
             // 
-            // lbl1phil1
+            // pbx_chork5
             // 
-            this.lbl1phil1.AutoSize = true;
-            this.lbl1phil1.Location = new System.Drawing.Point(334, 312);
-            this.lbl1phil1.Name = "lbl1phil1";
-            this.lbl1phil1.Size = new System.Drawing.Size(0, 17);
-            this.lbl1phil1.TabIndex = 8;
+            this.pbx_chork5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.pbx_chork5.Image = ((System.Drawing.Image)(resources.GetObject("pbx_chork5.Image")));
+            this.pbx_chork5.Location = new System.Drawing.Point(3, 46);
+            this.pbx_chork5.Name = "pbx_chork5";
+            this.pbx_chork5.Size = new System.Drawing.Size(53, 50);
+            this.pbx_chork5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbx_chork5.TabIndex = 1;
+            this.pbx_chork5.TabStop = false;
             // 
-            // lbl1phil2
+            // pbx_chork1
             // 
-            this.lbl1phil2.AutoSize = true;
-            this.lbl1phil2.Location = new System.Drawing.Point(180, 432);
-            this.lbl1phil2.Name = "lbl1phil2";
-            this.lbl1phil2.Size = new System.Drawing.Size(0, 17);
-            this.lbl1phil2.TabIndex = 9;
+            this.pbx_chork1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.pbx_chork1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbx_chork1.Image = ((System.Drawing.Image)(resources.GetObject("pbx_chork1.Image")));
+            this.pbx_chork1.Location = new System.Drawing.Point(225, 83);
+            this.pbx_chork1.Name = "pbx_chork1";
+            this.pbx_chork1.Size = new System.Drawing.Size(40, 38);
+            this.pbx_chork1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbx_chork1.TabIndex = 0;
+            this.pbx_chork1.TabStop = false;
             // 
-            // lbl1phil4
+            // pbx_phil1
             // 
-            this.lbl1phil4.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lbl1phil4.AutoSize = true;
-            this.lbl1phil4.Location = new System.Drawing.Point(94, 312);
-            this.lbl1phil4.Name = "lbl1phil4";
-            this.lbl1phil4.Size = new System.Drawing.Size(16, 17);
-            this.lbl1phil4.TabIndex = 10;
-            this.lbl1phil4.Text = "1";
+            this.pbx_phil1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.pbx_phil1.Image = ((System.Drawing.Image)(resources.GetObject("pbx_phil1.Image")));
+            this.pbx_phil1.Location = new System.Drawing.Point(225, 3);
+            this.pbx_phil1.MinimumSize = new System.Drawing.Size(75, 75);
+            this.pbx_phil1.Name = "pbx_phil1";
+            this.pbx_phil1.Size = new System.Drawing.Size(75, 75);
+            this.pbx_phil1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbx_phil1.TabIndex = 5;
+            this.pbx_phil1.TabStop = false;
             // 
-            // lbl1phil5
+            // pbx_phil2
             // 
-            this.lbl1phil5.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.lbl1phil5.AutoSize = true;
-            this.lbl1phil5.Location = new System.Drawing.Point(94, 13);
-            this.lbl1phil5.Name = "lbl1phil5";
-            this.lbl1phil5.Size = new System.Drawing.Size(16, 17);
-            this.lbl1phil5.TabIndex = 11;
-            this.lbl1phil5.Text = "2";
+            this.pbx_phil2.Image = ((System.Drawing.Image)(resources.GetObject("pbx_phil2.Image")));
+            this.pbx_phil2.Location = new System.Drawing.Point(225, 134);
+            this.pbx_phil2.MinimumSize = new System.Drawing.Size(75, 75);
+            this.pbx_phil2.Name = "pbx_phil2";
+            this.pbx_phil2.Size = new System.Drawing.Size(75, 75);
+            this.pbx_phil2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbx_phil2.TabIndex = 6;
+            this.pbx_phil2.TabStop = false;
+            // 
+            // pbx_phil4
+            // 
+            this.pbx_phil4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbx_phil4.Image = ((System.Drawing.Image)(resources.GetObject("pbx_phil4.Image")));
+            this.pbx_phil4.Location = new System.Drawing.Point(19, 134);
+            this.pbx_phil4.MinimumSize = new System.Drawing.Size(75, 75);
+            this.pbx_phil4.Name = "pbx_phil4";
+            this.pbx_phil4.Size = new System.Drawing.Size(75, 75);
+            this.pbx_phil4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbx_phil4.TabIndex = 7;
+            this.pbx_phil4.TabStop = false;
+            // 
+            // pbx_phil5
+            // 
+            this.pbx_phil5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbx_phil5.Image = ((System.Drawing.Image)(resources.GetObject("pbx_phil5.Image")));
+            this.pbx_phil5.Location = new System.Drawing.Point(19, 3);
+            this.pbx_phil5.MinimumSize = new System.Drawing.Size(75, 75);
+            this.pbx_phil5.Name = "pbx_phil5";
+            this.pbx_phil5.Size = new System.Drawing.Size(75, 75);
+            this.pbx_phil5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbx_phil5.TabIndex = 8;
+            this.pbx_phil5.TabStop = false;
+            // 
+            // pbx_phil3
+            // 
+            this.pbx_phil3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pbx_phil3.Image = ((System.Drawing.Image)(resources.GetObject("pbx_phil3.Image")));
+            this.pbx_phil3.Location = new System.Drawing.Point(150, 284);
+            this.pbx_phil3.MinimumSize = new System.Drawing.Size(75, 75);
+            this.pbx_phil3.Name = "pbx_phil3";
+            this.pbx_phil3.Size = new System.Drawing.Size(75, 75);
+            this.pbx_phil3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbx_phil3.TabIndex = 1;
+            this.pbx_phil3.TabStop = false;
+            // 
+            // tblpnl4_philstatus
+            // 
+            this.tblpnl4_philstatus.ColumnCount = 3;
+            this.tblpnl4_philstatus.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tblpnl4_philstatus.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 22F));
+            this.tblpnl4_philstatus.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tblpnl4_philstatus.Controls.Add(this.pbx_phil1stat, 0, 0);
+            this.tblpnl4_philstatus.Controls.Add(this.pbx_phil2stat, 0, 1);
+            this.tblpnl4_philstatus.Controls.Add(this.pbx_phil3stat, 0, 2);
+            this.tblpnl4_philstatus.Controls.Add(this.pbx_phil4stat, 0, 3);
+            this.tblpnl4_philstatus.Controls.Add(this.pbx_phil5stat, 0, 4);
+            this.tblpnl4_philstatus.Location = new System.Drawing.Point(399, 75);
+            this.tblpnl4_philstatus.Name = "tblpnl4_philstatus";
+            this.tblpnl4_philstatus.RowCount = 5;
+            this.tblpnl4_philstatus.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tblpnl4_philstatus.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tblpnl4_philstatus.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tblpnl4_philstatus.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tblpnl4_philstatus.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tblpnl4_philstatus.Size = new System.Drawing.Size(130, 366);
+            this.tblpnl4_philstatus.TabIndex = 2;
+            // 
+            // pbx_phil1stat
+            // 
+            this.pbx_phil1stat.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pbx_phil1stat.Location = new System.Drawing.Point(3, 3);
+            this.pbx_phil1stat.Name = "pbx_phil1stat";
+            this.pbx_phil1stat.Size = new System.Drawing.Size(82, 67);
+            this.pbx_phil1stat.TabIndex = 0;
+            this.pbx_phil1stat.TabStop = false;
+            // 
+            // pbx_phil2stat
+            // 
+            this.pbx_phil2stat.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pbx_phil2stat.Location = new System.Drawing.Point(3, 76);
+            this.pbx_phil2stat.Name = "pbx_phil2stat";
+            this.pbx_phil2stat.Size = new System.Drawing.Size(82, 67);
+            this.pbx_phil2stat.TabIndex = 1;
+            this.pbx_phil2stat.TabStop = false;
+            // 
+            // pbx_phil3stat
+            // 
+            this.pbx_phil3stat.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pbx_phil3stat.Location = new System.Drawing.Point(3, 149);
+            this.pbx_phil3stat.Name = "pbx_phil3stat";
+            this.pbx_phil3stat.Size = new System.Drawing.Size(82, 67);
+            this.pbx_phil3stat.TabIndex = 2;
+            this.pbx_phil3stat.TabStop = false;
+            // 
+            // pbx_phil4stat
+            // 
+            this.pbx_phil4stat.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pbx_phil4stat.Location = new System.Drawing.Point(3, 222);
+            this.pbx_phil4stat.Name = "pbx_phil4stat";
+            this.pbx_phil4stat.Size = new System.Drawing.Size(82, 67);
+            this.pbx_phil4stat.TabIndex = 3;
+            this.pbx_phil4stat.TabStop = false;
+            // 
+            // pbx_phil5stat
+            // 
+            this.pbx_phil5stat.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pbx_phil5stat.Location = new System.Drawing.Point(3, 295);
+            this.pbx_phil5stat.Name = "pbx_phil5stat";
+            this.pbx_phil5stat.Size = new System.Drawing.Size(82, 68);
+            this.pbx_phil5stat.TabIndex = 4;
+            this.pbx_phil5stat.TabStop = false;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 2;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Controls.Add(this.pbx_chork5, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.pbx_chork2, 1, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(100, 134);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(119, 99);
+            this.tableLayoutPanel3.TabIndex = 9;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(532, 453);
-            this.Controls.Add(this.Tlpn1);
+            this.Controls.Add(this.tblmainpnl);
             this.MaximumSize = new System.Drawing.Size(1100, 1000);
             this.MinimumSize = new System.Drawing.Size(550, 500);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Tlpn1.ResumeLayout(false);
-            this.Tlpn1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbTable)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbPhil1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbPhil3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbPhil0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbPhil4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbPhil2)).EndInit();
+            this.tblmainpnl.ResumeLayout(false);
+            this.tblpnl2_btns.ResumeLayout(false);
+            this.tblpnl3_dinner.ResumeLayout(false);
+            this.tblpnl5_teibol.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil3)).EndInit();
+            this.tblpnl4_philstatus.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil1stat)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil2stat)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil3stat)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil4stat)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_phil5stat)).EndInit();
+            this.tableLayoutPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TableLayoutPanel Tlpn1;
-        private System.Windows.Forms.PictureBox pbTable;
-        private System.Windows.Forms.PictureBox pbPhil1;
-        private System.Windows.Forms.PictureBox pbPhil3;
-        private System.Windows.Forms.PictureBox pbPhil0;
-        private System.Windows.Forms.PictureBox pbPhil4;
-        private System.Windows.Forms.PictureBox pbPhil2;
-        private System.Windows.Forms.Button Start;
-        private System.Windows.Forms.Label lbl1phil0;
-        private System.Windows.Forms.Label lbl1phil1;
-        private System.Windows.Forms.Label lbl1phil2;
-        private System.Windows.Forms.Label lbl1phil4;
-        private System.Windows.Forms.Label lbl1phil5;
+        private System.Windows.Forms.TableLayoutPanel tblmainpnl;
+        private System.Windows.Forms.TableLayoutPanel tblpnl2_btns;
+        private System.Windows.Forms.Button Stop_btn;
+        private System.Windows.Forms.Button start_btn;
+        private System.Windows.Forms.TableLayoutPanel tblpnl3_dinner;
+        private System.Windows.Forms.TableLayoutPanel tblpnl4_philstatus;
+        private System.Windows.Forms.TableLayoutPanel tblpnl5_teibol;
+        private System.Windows.Forms.PictureBox pbx_chork1;
+        private System.Windows.Forms.PictureBox pbx_chork3;
+        private System.Windows.Forms.PictureBox pbx_chork2;
+        private System.Windows.Forms.PictureBox pbx_chork4;
+        private System.Windows.Forms.PictureBox pbx_chork5;
+        private System.Windows.Forms.PictureBox pbx_phil1;
+        private System.Windows.Forms.PictureBox pbx_phil2;
+        private System.Windows.Forms.PictureBox pbx_phil4;
+        private System.Windows.Forms.PictureBox pbx_phil5;
+        private System.Windows.Forms.PictureBox pbx_phil3;
+        private System.Windows.Forms.PictureBox pbx_phil1stat;
+        private System.Windows.Forms.PictureBox pbx_phil2stat;
+        private System.Windows.Forms.PictureBox pbx_phil3stat;
+        private System.Windows.Forms.PictureBox pbx_phil4stat;
+        private System.Windows.Forms.PictureBox pbx_phil5stat;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
     }
 }
 

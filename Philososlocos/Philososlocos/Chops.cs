@@ -47,12 +47,6 @@ namespace Philososlocos
             TakenBy = 0;
         }
 
-
-
-
-     
-
-
     }
 
 
