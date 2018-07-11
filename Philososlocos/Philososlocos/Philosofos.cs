@@ -152,7 +152,10 @@ namespace Philososlocos
 
             if (cThinkCount > StarvationThreshold)
             {
-               //starvingphiloso
+                //starvingphiloso
+                
+                Eat();
+
             }
 
             Eat();
@@ -164,8 +167,9 @@ namespace Philososlocos
 
         public void Wait()
         {
+            
             this.CState = phState.Waiting;
-            Thread.Sleep(random.Next(20000, 30000));
+            Thread.Sleep(random.Next(1000, 2000));
             Think();
         }
 
@@ -177,9 +181,11 @@ namespace Philososlocos
         private bool TakeChopInRightHand()
         {
             return RightChop.Take(phID);
+            
         }
 
-      
+
+
     }
 
 

@@ -35,15 +35,16 @@
             this.start_btn = new System.Windows.Forms.Button();
             this.tblpnl3_dinner = new System.Windows.Forms.TableLayoutPanel();
             this.tblpnl5_teibol = new System.Windows.Forms.TableLayoutPanel();
-            this.pbx_chork3 = new System.Windows.Forms.PictureBox();
-            this.pbx_chork2 = new System.Windows.Forms.PictureBox();
-            this.pbx_chork4 = new System.Windows.Forms.PictureBox();
-            this.pbx_chork5 = new System.Windows.Forms.PictureBox();
-            this.pbx_chork1 = new System.Windows.Forms.PictureBox();
             this.pbx_phil1 = new System.Windows.Forms.PictureBox();
             this.pbx_phil2 = new System.Windows.Forms.PictureBox();
             this.pbx_phil4 = new System.Windows.Forms.PictureBox();
             this.pbx_phil5 = new System.Windows.Forms.PictureBox();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.pbx_chork2 = new System.Windows.Forms.PictureBox();
+            this.pbx_chork3 = new System.Windows.Forms.PictureBox();
+            this.pbx_chork1 = new System.Windows.Forms.PictureBox();
+            this.pbx_chork4 = new System.Windows.Forms.PictureBox();
+            this.pbx_chork5 = new System.Windows.Forms.PictureBox();
             this.pbx_phil3 = new System.Windows.Forms.PictureBox();
             this.tblpnl4_philstatus = new System.Windows.Forms.TableLayoutPanel();
             this.pbx_phil1stat = new System.Windows.Forms.PictureBox();
@@ -51,20 +52,20 @@
             this.pbx_phil3stat = new System.Windows.Forms.PictureBox();
             this.pbx_phil4stat = new System.Windows.Forms.PictureBox();
             this.pbx_phil5stat = new System.Windows.Forms.PictureBox();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tblmainpnl.SuspendLayout();
             this.tblpnl2_btns.SuspendLayout();
             this.tblpnl3_dinner.SuspendLayout();
             this.tblpnl5_teibol.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil5)).BeginInit();
+            this.tableLayoutPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil3)).BeginInit();
             this.tblpnl4_philstatus.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil1stat)).BeginInit();
@@ -72,7 +73,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil3stat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil4stat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil5stat)).BeginInit();
-            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tblmainpnl
@@ -143,7 +143,7 @@
             this.tblpnl3_dinner.ColumnCount = 3;
             this.tblpnl3_dinner.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.857143F));
             this.tblpnl3_dinner.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 93.14286F));
-            this.tblpnl3_dinner.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 22F));
+            this.tblpnl3_dinner.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.tblpnl3_dinner.Controls.Add(this.tblpnl5_teibol, 1, 1);
             this.tblpnl3_dinner.Controls.Add(this.pbx_phil3, 1, 2);
             this.tblpnl3_dinner.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -163,15 +163,15 @@
             this.tblpnl5_teibol.ColumnCount = 3;
             this.tblpnl5_teibol.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.75F));
             this.tblpnl5_teibol.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.25F));
-            this.tblpnl5_teibol.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 99F));
-            this.tblpnl5_teibol.Controls.Add(this.pbx_chork3, 0, 1);
+            this.tblpnl5_teibol.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 102F));
             this.tblpnl5_teibol.Controls.Add(this.pbx_phil1, 2, 0);
             this.tblpnl5_teibol.Controls.Add(this.pbx_phil2, 2, 2);
             this.tblpnl5_teibol.Controls.Add(this.pbx_phil4, 0, 2);
             this.tblpnl5_teibol.Controls.Add(this.pbx_phil5, 0, 0);
             this.tblpnl5_teibol.Controls.Add(this.tableLayoutPanel3, 1, 2);
-            this.tblpnl5_teibol.Controls.Add(this.pbx_chork4, 1, 0);
             this.tblpnl5_teibol.Controls.Add(this.pbx_chork1, 2, 1);
+            this.tblpnl5_teibol.Controls.Add(this.pbx_chork4, 0, 1);
+            this.tblpnl5_teibol.Controls.Add(this.pbx_chork5, 1, 0);
             this.tblpnl5_teibol.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tblpnl5_teibol.Location = new System.Drawing.Point(27, 42);
             this.tblpnl5_teibol.Name = "tblpnl5_teibol";
@@ -179,70 +179,14 @@
             this.tblpnl5_teibol.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 55.88235F));
             this.tblpnl5_teibol.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 44.11765F));
             this.tblpnl5_teibol.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 104F));
-            this.tblpnl5_teibol.Size = new System.Drawing.Size(322, 236);
+            this.tblpnl5_teibol.Size = new System.Drawing.Size(320, 236);
             this.tblpnl5_teibol.TabIndex = 0;
-            // 
-            // pbx_chork3
-            // 
-            this.pbx_chork3.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.pbx_chork3.Image = ((System.Drawing.Image)(resources.GetObject("pbx_chork3.Image")));
-            this.pbx_chork3.Location = new System.Drawing.Point(52, 77);
-            this.pbx_chork3.Name = "pbx_chork3";
-            this.pbx_chork3.Size = new System.Drawing.Size(42, 50);
-            this.pbx_chork3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx_chork3.TabIndex = 1;
-            this.pbx_chork3.TabStop = false;
-            // 
-            // pbx_chork2
-            // 
-            this.pbx_chork2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pbx_chork2.Image = ((System.Drawing.Image)(resources.GetObject("pbx_chork2.Image")));
-            this.pbx_chork2.Location = new System.Drawing.Point(68, 39);
-            this.pbx_chork2.Name = "pbx_chork2";
-            this.pbx_chork2.Size = new System.Drawing.Size(48, 57);
-            this.pbx_chork2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx_chork2.TabIndex = 2;
-            this.pbx_chork2.TabStop = false;
-            // 
-            // pbx_chork4
-            // 
-            this.pbx_chork4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.pbx_chork4.Image = ((System.Drawing.Image)(resources.GetObject("pbx_chork4.Image")));
-            this.pbx_chork4.Location = new System.Drawing.Point(133, 20);
-            this.pbx_chork4.Name = "pbx_chork4";
-            this.pbx_chork4.Size = new System.Drawing.Size(53, 50);
-            this.pbx_chork4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx_chork4.TabIndex = 0;
-            this.pbx_chork4.TabStop = false;
-            // 
-            // pbx_chork5
-            // 
-            this.pbx_chork5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.pbx_chork5.Image = ((System.Drawing.Image)(resources.GetObject("pbx_chork5.Image")));
-            this.pbx_chork5.Location = new System.Drawing.Point(3, 46);
-            this.pbx_chork5.Name = "pbx_chork5";
-            this.pbx_chork5.Size = new System.Drawing.Size(53, 50);
-            this.pbx_chork5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx_chork5.TabIndex = 1;
-            this.pbx_chork5.TabStop = false;
-            // 
-            // pbx_chork1
-            // 
-            this.pbx_chork1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.pbx_chork1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbx_chork1.Image = ((System.Drawing.Image)(resources.GetObject("pbx_chork1.Image")));
-            this.pbx_chork1.Location = new System.Drawing.Point(225, 83);
-            this.pbx_chork1.Name = "pbx_chork1";
-            this.pbx_chork1.Size = new System.Drawing.Size(40, 38);
-            this.pbx_chork1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx_chork1.TabIndex = 0;
-            this.pbx_chork1.TabStop = false;
             // 
             // pbx_phil1
             // 
             this.pbx_phil1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pbx_phil1.Image = ((System.Drawing.Image)(resources.GetObject("pbx_phil1.Image")));
-            this.pbx_phil1.Location = new System.Drawing.Point(225, 3);
+            this.pbx_phil1.Location = new System.Drawing.Point(220, 3);
             this.pbx_phil1.MinimumSize = new System.Drawing.Size(75, 75);
             this.pbx_phil1.Name = "pbx_phil1";
             this.pbx_phil1.Size = new System.Drawing.Size(75, 75);
@@ -253,7 +197,7 @@
             // pbx_phil2
             // 
             this.pbx_phil2.Image = ((System.Drawing.Image)(resources.GetObject("pbx_phil2.Image")));
-            this.pbx_phil2.Location = new System.Drawing.Point(225, 134);
+            this.pbx_phil2.Location = new System.Drawing.Point(220, 134);
             this.pbx_phil2.MinimumSize = new System.Drawing.Size(75, 75);
             this.pbx_phil2.Name = "pbx_phil2";
             this.pbx_phil2.Size = new System.Drawing.Size(75, 75);
@@ -265,7 +209,7 @@
             // 
             this.pbx_phil4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pbx_phil4.Image = ((System.Drawing.Image)(resources.GetObject("pbx_phil4.Image")));
-            this.pbx_phil4.Location = new System.Drawing.Point(19, 134);
+            this.pbx_phil4.Location = new System.Drawing.Point(17, 134);
             this.pbx_phil4.MinimumSize = new System.Drawing.Size(75, 75);
             this.pbx_phil4.Name = "pbx_phil4";
             this.pbx_phil4.Size = new System.Drawing.Size(75, 75);
@@ -277,7 +221,7 @@
             // 
             this.pbx_phil5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pbx_phil5.Image = ((System.Drawing.Image)(resources.GetObject("pbx_phil5.Image")));
-            this.pbx_phil5.Location = new System.Drawing.Point(19, 3);
+            this.pbx_phil5.Location = new System.Drawing.Point(17, 3);
             this.pbx_phil5.MinimumSize = new System.Drawing.Size(75, 75);
             this.pbx_phil5.Name = "pbx_phil5";
             this.pbx_phil5.Size = new System.Drawing.Size(75, 75);
@@ -285,11 +229,81 @@
             this.pbx_phil5.TabIndex = 8;
             this.pbx_phil5.TabStop = false;
             // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 2;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Controls.Add(this.pbx_chork2, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.pbx_chork3, 0, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(98, 134);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(116, 99);
+            this.tableLayoutPanel3.TabIndex = 9;
+            // 
+            // pbx_chork2
+            // 
+            this.pbx_chork2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbx_chork2.Image = ((System.Drawing.Image)(resources.GetObject("pbx_chork2.Image")));
+            this.pbx_chork2.Location = new System.Drawing.Point(65, 39);
+            this.pbx_chork2.Name = "pbx_chork2";
+            this.pbx_chork2.Size = new System.Drawing.Size(48, 57);
+            this.pbx_chork2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbx_chork2.TabIndex = 2;
+            this.pbx_chork2.TabStop = false;
+            // 
+            // pbx_chork3
+            // 
+            this.pbx_chork3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.pbx_chork3.Image = ((System.Drawing.Image)(resources.GetObject("pbx_chork3.Image")));
+            this.pbx_chork3.Location = new System.Drawing.Point(3, 46);
+            this.pbx_chork3.Name = "pbx_chork3";
+            this.pbx_chork3.Size = new System.Drawing.Size(42, 50);
+            this.pbx_chork3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbx_chork3.TabIndex = 1;
+            this.pbx_chork3.TabStop = false;
+            // 
+            // pbx_chork1
+            // 
+            this.pbx_chork1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.pbx_chork1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbx_chork1.Image = ((System.Drawing.Image)(resources.GetObject("pbx_chork1.Image")));
+            this.pbx_chork1.Location = new System.Drawing.Point(220, 80);
+            this.pbx_chork1.Name = "pbx_chork1";
+            this.pbx_chork1.Size = new System.Drawing.Size(48, 44);
+            this.pbx_chork1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbx_chork1.TabIndex = 0;
+            this.pbx_chork1.TabStop = false;
+            // 
+            // pbx_chork4
+            // 
+            this.pbx_chork4.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.pbx_chork4.Image = ((System.Drawing.Image)(resources.GetObject("pbx_chork4.Image")));
+            this.pbx_chork4.Location = new System.Drawing.Point(39, 77);
+            this.pbx_chork4.Name = "pbx_chork4";
+            this.pbx_chork4.Size = new System.Drawing.Size(53, 50);
+            this.pbx_chork4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbx_chork4.TabIndex = 0;
+            this.pbx_chork4.TabStop = false;
+            // 
+            // pbx_chork5
+            // 
+            this.pbx_chork5.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.pbx_chork5.Image = ((System.Drawing.Image)(resources.GetObject("pbx_chork5.Image")));
+            this.pbx_chork5.Location = new System.Drawing.Point(128, 20);
+            this.pbx_chork5.Name = "pbx_chork5";
+            this.pbx_chork5.Size = new System.Drawing.Size(55, 50);
+            this.pbx_chork5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbx_chork5.TabIndex = 1;
+            this.pbx_chork5.TabStop = false;
+            // 
             // pbx_phil3
             // 
             this.pbx_phil3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pbx_phil3.Image = ((System.Drawing.Image)(resources.GetObject("pbx_phil3.Image")));
-            this.pbx_phil3.Location = new System.Drawing.Point(150, 284);
+            this.pbx_phil3.Location = new System.Drawing.Point(149, 284);
             this.pbx_phil3.MinimumSize = new System.Drawing.Size(75, 75);
             this.pbx_phil3.Name = "pbx_phil3";
             this.pbx_phil3.Size = new System.Drawing.Size(75, 75);
@@ -325,6 +339,7 @@
             this.pbx_phil1stat.Location = new System.Drawing.Point(3, 3);
             this.pbx_phil1stat.Name = "pbx_phil1stat";
             this.pbx_phil1stat.Size = new System.Drawing.Size(82, 67);
+            this.pbx_phil1stat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbx_phil1stat.TabIndex = 0;
             this.pbx_phil1stat.TabStop = false;
             // 
@@ -361,22 +376,9 @@
             this.pbx_phil5stat.Location = new System.Drawing.Point(3, 295);
             this.pbx_phil5stat.Name = "pbx_phil5stat";
             this.pbx_phil5stat.Size = new System.Drawing.Size(82, 68);
+            this.pbx_phil5stat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbx_phil5stat.TabIndex = 4;
             this.pbx_phil5stat.TabStop = false;
-            // 
-            // tableLayoutPanel3
-            // 
-            this.tableLayoutPanel3.ColumnCount = 2;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.pbx_chork5, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.pbx_chork2, 1, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(100, 134);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(119, 99);
-            this.tableLayoutPanel3.TabIndex = 9;
             // 
             // Form1
             // 
@@ -392,15 +394,16 @@
             this.tblpnl2_btns.ResumeLayout(false);
             this.tblpnl3_dinner.ResumeLayout(false);
             this.tblpnl5_teibol.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil5)).EndInit();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_chork5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil3)).EndInit();
             this.tblpnl4_philstatus.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil1stat)).EndInit();
@@ -408,7 +411,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil3stat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil4stat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_phil5stat)).EndInit();
-            this.tableLayoutPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
